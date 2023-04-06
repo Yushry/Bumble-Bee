@@ -1,0 +1,109 @@
+
+/* -------Header CSS------ */
+.navbar {
+    font-family: 'Roboto Slab', serif;
+    height: 60px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 30px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px gray;
+    --webkit-box-shadow: 0 8px 6px -6px gray;
+    border-bottom: solid gray !important;
+    background-color: rgb(198, 197, 202);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.nav2{
+    display: flex;
+    align-items: center;
+    
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.link1{
+    font-size: 24px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 1000px;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    height: 40px;
+    box-shadow: 0 8px 6px -6px gray;
+    --webkit-box-shadow: 0 8px 6px -6px gray;
+    border-top: solid gray !important;
+    background-color: rgb(198, 197, 202);
+}
+
+/* 
+.sidebarr{
+    font-family: 'Roboto Slab', serif;
+    font-weight:500;
+    padding: 15px;
+}
+
+
+.sidebarr:hover{
+    color:rgb(244, 79, 50);
+} */
+
+
+
+/* .main-section{
+    margin-top: 30px;
+    min-height: 80vh;
+} */
+
+
+
+/* .nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-right: 15px;
+} */
+
+
+
+.header11{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header11 h1{
+    margin-top: 15px;
+    
+}
+
+
+
+
+.footer {
+    color: white;
+    padding: 25px;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
